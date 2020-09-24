@@ -88,6 +88,13 @@ Install zplug using Homebrew
  ~~~ zsh
   $ brew install zplug
  ~~~
+ 
+Add the following to your `.zshrc` if you get zplug command not found. This issue occurs as zplug is installed to /usr/opt/zplug which is not in the PATH
+```
+  export ZPLUG_HOME=$(brew --prefix)/opt/zplug
+  source $ZPLUG_HOME/init.zsh
+  
+```
 
 Add the following line to your `.zshrc`:
 
