@@ -83,6 +83,12 @@ export PATH="$PATH:$GOPATH/bin"
    
 ## via ZPlug plugin manager for Zsh
 
+Install zplug using Homebrew
+
+ ~~~ zsh
+  $ brew install zplug
+ ~~~
+
 Add the following line to your `.zshrc`:
 
 ```zplug "RiverGlide/zsh-goenv", from:gitlab```
